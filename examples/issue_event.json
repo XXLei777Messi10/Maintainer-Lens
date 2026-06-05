@@ -1,0 +1,10 @@
+{
+  "action": "opened",
+  "issue": {
+    "title": "Regression after upgrade",
+    "body": "The app crashes after upgrading to 0.2.0. I see an error during startup in production.",
+    "user": {
+      "login": "octocat"
+    }
+  }
+}

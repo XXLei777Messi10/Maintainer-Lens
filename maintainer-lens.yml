@@ -1,0 +1,27 @@
+project:
+  name: Maintainer Lens
+  maintainers:
+    - "@maintainer"
+
+triage:
+  labels:
+    bug:
+      - crash
+      - error
+      - regression
+      - broken
+    docs:
+      - documentation
+      - readme
+      - guide
+      - tutorial
+    question:
+      - how do i
+      - help
+      - usage
+      - support
+  high_priority_terms:
+    - security
+    - data loss
+    - production
+    - vulnerability

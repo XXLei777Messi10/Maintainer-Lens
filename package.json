@@ -1,0 +1,24 @@
+{
+  "name": "maintainer-lens",
+  "version": "0.1.0",
+  "description": "A lightweight GitHub Action and CLI for open source maintainer triage briefs.",
+  "type": "module",
+  "bin": {
+    "maintainer-lens": "src/index.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/index.js --event examples/issue_event.json --dry-run"
+  },
+  "keywords": [
+    "github-action",
+    "open-source",
+    "maintainer",
+    "triage",
+    "codex"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,15 @@
+name: Maintainer Lens
+description: Generate maintainer triage briefs for GitHub issue and pull request events.
+author: Maintainer Lens contributors
+inputs:
+  event-path:
+    description: Path to the GitHub event payload.
+    required: false
+    default: ${{ github.event_path }}
+  post-comment:
+    description: Whether to post the generated brief as a GitHub comment.
+    required: false
+    default: "false"
+runs:
+  using: node20
+  main: src/index.js
